@@ -18,14 +18,17 @@ Apesar de que os vira-latas caramelos possuem um padrão entre si conforme menci
 
 _Deep Learning_ é conhecido como uma área dentro do aprendizado de máquina (também conhecido como _machine learning_) que faz o uso de algoritmos de redes neurais para encontrar padrões, previsões e identificação de imagens.
 
+# 4.0 Resultados
+
+Como resultado do treino e da predição temos que o treino realizou todas as etapas do `fit_generator` com uma acuracia acima de 80%, porém a predição falhou na imagem escolhida, indicando que a foto de um cachorro normal era um vira-lata caramelo.
 
 Referências
 
-[1] [Deep Learning - O que é e qual é a sua importância?](https://www.sas.com/pt_br/insights/analytics/deep-learning.html)
+[1][deep learning - o que é e qual é a sua importância?](https://www.sas.com/pt_br/insights/analytics/deep-learning.html)
 
-[2] [Afinal, o que é Deep Learning?](https://gaea.com.br/afinal-o-que-e-deep-learning/)
+[2][afinal, o que é deep learning?](https://gaea.com.br/afinal-o-que-e-deep-learning/)
 
-[3] [Redes Neurais - O que são e qual é a sua importância?](https://www.sas.com/pt_br/insights/analytics/neural-networks.html)
+[3][redes neurais - o que são e qual é a sua importância?](https://www.sas.com/pt_br/insights/analytics/neural-networks.html)
 
 [4] VARGAS, Ana Caroline Gomes; PAES, Aline; VASCONCELOS, Cristina Nader. Um estudo sobre redes neurais convolucionais e sua aplicação em detecção de pedestres. In: Proceedings of the XXIX Conference on Graphics, Patterns and Images. 2016. p. 1-4.
 
