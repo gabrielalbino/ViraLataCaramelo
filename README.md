@@ -64,3 +64,5 @@ Referências
 [4] VARGAS, Ana Caroline Gomes; PAES, Aline; VASCONCELOS, Cristina Nader. Um estudo sobre redes neurais convolucionais e sua aplicação em detecção de pedestres. In: Proceedings of the XXIX Conference on Graphics, Patterns and Images. 2016. p. 1-4.
 
 [5] KOVÁCS, Zsolt László. Redes neurais artificiais. Editora Livraria da Fisica, 2002.
+
+[6][capítulo 47 – reconhecimento de imagens com redes neurais convolucionais em python – parte 4](http://deeplearningbook.com.br/reconhecimento-de-imagens-com-redes-neurais-convolucionais-em-python-parte-4/)
