@@ -47,6 +47,8 @@ O notebook da execução pode ser encontrado [aqui](ViraLataCarameloNotebook.ipy
 
 ## Desenvolvedores do projeto
 
+É importante destacar para fins de correção que o numero de alterações no código ou de commits não reflete o esforço realizado por cada membro da equipe, visto que o projeto foi realizado de forma presencial e em grupo, tendo participação dos 3 membros listados abaixo.
+
 - Gabriel Batista Albino Silva - 16/0028361
 
 - Gabriela Barrozo Guedes, 16/0121612
