@@ -18,9 +18,40 @@ Apesar de que os vira-latas caramelos possuem um padrão entre si conforme menci
 
 _Deep Learning_ é conhecido como uma área dentro do aprendizado de máquina (também conhecido como _machine learning_) que faz o uso de algoritmos de redes neurais para encontrar padrões, previsões e identificação de imagens.
 
-# 4.0 Resultados
+A rede neural é uma sequência de camadas e podemos usar o modelo sequencial oferecido pelo Keras, que possui as funções necessárias para construir cada camada de uma rede neural convolucional.
+
+### 3.1 Construção da rede neural
+
+A primeira camada de Convolução utiliza 32 features para o array 2D e o array no formato 3x3, As imagens de 64x64px serão armazenadas em um array de 3 dimenções devido ao modo de cor das imagens (R, G e B).
+
+Após a aplicação da primeira camada de Convolução é realizado um agrupamento para reduzir o mapa de features decorrente da primeira camada, reduzindo o tamanho dele.
+
+Logo após o primeiro pooling, é adicionado outra camada de Convolução para tornar a rede mais profunda, após isso é realizado o segundo Pooling (Agrupamento).
+
+Depois da segunda camada de convolução estar preparada é realizado o achatamento (Flatten), que converte a estrutura de dados 2D resultantes da segunda camada em 1D, ou seja, um vetor.
+
+No próximo passo todas as camadas são conectadas utilizando uma função de ativação retificadora (relu). Também é utilizado então uma função de ativação sigmóide para obter as probabilidades de cada imagem conter um cachorro normal ou um vira-lata caramelo. O modelo raramente terá 100% de certeza e o que ele gera como um resultado é uma probabilidade.
+
+Para compilar a rede, é utilizado o otimizador "Adam" e uma função log loss com "entropia binária cruzada". A métrica utilizada será a acurácia, pois essa é a maior preocupação no treinamento deste tipo de modelo.
+
+## 5.0 Como rodar o projeto
+
+Para rodar o projeto basta execultar o jupyter notebook no diretorio do projeto e executar as etapas do arquivo (ViraLataCarameloNotebook)[ViraLataCarameloNotebook.ipynb].
+
+##
+
+# 5.0 Resultados
 
 Como resultado do treino e da predição temos que o treino realizou todas as etapas do `fit_generator` com uma acuracia acima de 80%, porém a predição falhou na imagem escolhida, indicando que a foto de um cachorro normal era um vira-lata caramelo.
+O notebook da execução pode ser encontrado [aqui](ViraLataCarameloNotebook.ipynb).
+
+## Desenvolvedores do projeto
+
+- Gabriel Batista Albino Silva - 16/0028361
+
+- Gabriela Barrozo Guedes, 16/0121612
+
+- Helena Bretas Goulart, 16/0124034
 
 Referências
 
