@@ -1,7 +1,7 @@
 # Distinção de vira-latas caramelos
 
 ## 1. O que é o projeto?
-![](https://github.com/gabrielalbino/ViraLataCaramelo/dataset/single_prediction/caramelo_or_normal_1.jpg)
+![](https://github.com/gabrielalbino/ViraLataCaramelo/tree/master/dataset/single_prediction/caramelo_or_normal_1.jpg)
 Os vira-latas caramelos são cachorros sem raça definida e que possuem a cor caramelo em sua pelugem. Apesar de serem animais sem raça definida, possuem um padrão em suas caraterísticas físicas que podem ser encontradas: pêlos na cor caramelo, focinho comprido e em alguns casos mesclagem com a cor preta na pelugem.
 
 Em contrapartida, existem os animais com raças definidas, como os poodles, labradores, pastores alemães, etc. De acordo com a raça, é possível observar que existe também dentro de cada uma delas um padrão para os animais.
